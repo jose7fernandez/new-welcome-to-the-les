@@ -1,55 +1,55 @@
 body,
 html {
-    height: 100%;
-    margin: 0;
-    font-size: 16px;
-    font-family: 'Marcellus SC', serif;
-    font-weight: 400;
-    line-height: 1.8em;
-    color: #666;
     background-color: #282e34;
+    color: #666;
+    font-family: 'Marcellus SC', serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100%;
+    line-height: 1.8em;
+    margin: 0;
 }
 
 .img1,
 .img2,
 .img3,
 .img4 {
-    position: relative;
-    opacity: 0.80;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     /*
     background-attachment
     fixed = parallax
     scroll = normal
   */
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.80;
+    position: relative;
 }
 
 .img1 {
-    background-image: url('../img/800px-Lower_East_Side%20.jpg');
+    background-image: url('../images/800px-Lower_East_Side%20.jpg');
     min-height: 100%;
 }
 
 .img2 {
-    background-image: url('../img/vintage-luggage-larger.jpg');
+    background-image: url('../images/vintage-luggage-larger.jpg');
     min-height: 400px;
 }
 
 .img3 {
-    background-image: url('../img/baked-goods-1867459_1280.jpg');
+    background-image: url('../images/baked-goods-1867459_1280.jpg');
     min-height: 400px;
 }
 
 .img4 {
-    background-image: url('../img/street-art-1319752_1920.jpg');
+    background-image: url('../images/street-art-1319752_1920.jpg');
     min-height: 800px;
 }
 
 .section {
-    text-align: center;
     padding: 40px 80px;
+    text-align: center;
 }
 
 .section-light {
@@ -64,8 +64,8 @@ html {
 
 .section ul li,
 a {
-    text-decoration: none;
     list-style: none;
+    text-decoration: none;
 }
 
 .section a {
@@ -73,14 +73,14 @@ a {
 }
 
 .ptext {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
     color: #000;
     font-size: 27px;
     letter-spacing: 8px;
+    position: absolute;
+    text-align: center;
     text-transform: uppercase;
+    top: 50%;
+    width: 100%;
 }
 
 .ptext .border {
@@ -90,15 +90,13 @@ a {
 }
 
 
-
-
 /* footer */
 
 footer {
     background-color: #282e34;
     bottom: 0;
-    text-align: center;
     height: 60px;
+    text-align: center;
 }
 
 @media(max-width:768px) {
