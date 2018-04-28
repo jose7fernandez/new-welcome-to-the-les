@@ -107,7 +107,7 @@ footer {
     .img2,
     .img3,
     .img4 {
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
     ul {
         margin-left: -45px
