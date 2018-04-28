@@ -1,0 +1,117 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Marcellus SC', serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    background-color: #282e34;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*
+    background-attachment
+    fixed = parallax
+    scroll = normal
+  */
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url('../img/800px-Lower_East_Side%20.jpg');
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url('../img/vintage-luggage-larger.jpg');
+    min-height: 400px;
+}
+
+.img3 {
+    background-image: url('../img/baked-goods-1867459_1280.jpg');
+    min-height: 400px;
+}
+
+.img4 {
+    background-image: url('../img/street-art-1319752_1920.jpg');
+    min-height: 800px;
+}
+
+.section {
+    text-align: center;
+    padding: 40px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.section ul li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.section a {
+    color: red
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+
+/* footer */
+
+footer {
+    background-color: #282e34;
+    bottom: 0;
+    text-align: center;
+    height: 60px;
+}
+
+@media(max-width:768px) {
+    .ptext {
+        font-size: 85%;
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4 {
+        background-attachment: scroll;
+    }
+    ul {
+        margin-left: -45px
+    }
+}
