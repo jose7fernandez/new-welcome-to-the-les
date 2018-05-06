@@ -10,6 +10,23 @@ html {
     margin: 0;
 }
 
+.ptext {
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 45%;
+    width: 100%;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
 .img1,
 .img2,
 .img3,
@@ -70,23 +87,6 @@ a {
 
 .section a {
     color: red
-}
-
-.ptext {
-    color: #000;
-    font-size: 27px;
-    letter-spacing: 8px;
-    position: absolute;
-    text-align: center;
-    text-transform: uppercase;
-    top: 50%;
-    width: 100%;
-}
-
-.ptext .border {
-    background-color: #111;
-    color: #fff;
-    padding: 20px;
 }
 
 
